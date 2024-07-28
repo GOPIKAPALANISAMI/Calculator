@@ -1,0 +1,51 @@
+body{
+    background-color:rgb(226, 210, 213);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container
+{
+
+     width: 350px;
+     height:500px;
+     background-color: #FFC9B4;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10%;
+     box-shadow: inset 0px 2px 1px 3px;
+     
+}
+.box
+{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box form input{
+width: 60px;
+height: 60px;
+border-radius: 10px;
+border: 0;
+font-weight: 400;
+margin-top: 10px;
+box-shadow: inset 0px 1px 2px 1px;
+}
+.box form .display input
+{
+    flex: 1;
+    text-align: right;
+    width:250px;
+    color: black;
+    font-size: 35px;
+    background: transparent;
+    box-shadow: inset 0px 1px 2px 2px;
+}
+.box .operator,.equal{
+    color: red;
+}
